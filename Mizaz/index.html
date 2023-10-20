@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation Bar with Search Box</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Unicons CSS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+   <script src="script.js" defer></script>
+  </head>
+  <body>
+    <nav class="nav">
+      <i class="uil uil-bars navOpenBtn"></i>
+      <a href="whatsapp://send?text=Websitemu bagus 👍:&phone=+6283146472899" class="logo">Ryzhen</a>
+
+      <ul class="nav-links">
+        <i class="uil uil-times navCloseBtn"></i>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+
+      <i class="uil uil-search search-icon" id="searchIcon"></i>
+      <div class="search-box">
+        <i class="uil uil-search search-icon"></i>
+        <input type="text" placeholder="Search here..." />
+      </div>
+    </nav>
+    
+    <!---------Hero Section----->
+    <section class="hero">
+           <div class="hero-main">
+          <div class="title">
+            <span class="text first-text">Hello, I'm <span class="text sec-text"><br /><b>R</b>yzhen</span></spam>
+
+
+          </div>
+          <div class="designation">
+            <h3>Web Developer</h3>
+          </div>
+          <div class="btns">
+            <a href="#experience" class="btn btn-service">Experience</a>
+            <a href="#Contact" class="btn btn-contact">Contact Me</a>
+          </div>
+        </div>
+        </section>
+  
+  <!-----------About-------->
+      <section id="about">
+        <img src="service-bg." alt="">
+        <div class="about-left">
+          <img src="zyro-image.png" alt="user-sideimg" />
+        </div>
+        <div class="about-right">
+          <div class="section-title">
+            <h2 class="sub-title">About Me</h2>
+            <h3 class="title">Web Developer</h3>
+          </div>
+          <p class="desc">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
+            suscipit neque voluptatum numquam vero excepturi vitae rerum dicta
+            vel commodi, aut, necessitatibus saepe culpa nihil porro magnam
+            atque possimus facilis.
+          </p>
+          <div class="skils">
+      <h3 class="skils-text">My Skill</h3>
+  <div class="skill-bars">
+    <div class="bar">
+      <div class="info">
+        <span>Fotography</span>
+      </div>
+      <div class="progress-line html">
+        <span></span>
+      </div>
+    </div>
+    <div class="bar">
+      <div class="info">
+        <span>Videographic</span>
+      </div>
+      <div class="progress-line css">
+        <span></span>
+      </div>
+    </div>
+    <div class="bar">
+      <div class="info">
+        <span>Gaming</span>
+      </div>
+      <div class="progress-line jquery">
+        <span></span>
+      </div>
+    </div>
+    <div class="bar">
+      <div class="info">
+        <span>Photoshop</span>
+      </div>
+      <div class="progress-line python">
+        <span></span>
+      </div>
+    </div>
+  </div>
+  </div>
+        </div>
+      </section>
+  
+  <!-----Experience----->
+  <section class="experience">
+    <h1 class="experience-text">
+      My <span>Experience </span>
+    </h1>
+    <div class="timeline">
+      
+      <div class="container right-container">
+        <div class="timeline-dot"></div>
+        <div class="text-box">
+          <h2 class="experience-text2">Alphabet inc</h2>
+          <small>2024-2028</small>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente non natus est iure voluptates assumenda rem modi laborum quibusdam, autem.</p>
+            <span class="right-container-arrow"></span>
+        </div>
+      </div>
+      
+       <div class="container left-container">
+         <div class="timeline-dot"></div>
+        <div class="text-box">
+          <h2 class="experience-text2">ferrari  inc</h2>
+          <small>2029-2032</small>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente non natus est iure voluptates assumenda rem modi laborum quibusdam, autem.</p>
+          <span class="left-container-arrow"></span>
+        </div>
+      </div>
+       <div class="container right-container">
+         <div class="timeline-dot"></div>
+        <div class="text-box">
+          <h2 class="experience-text2">Honda inc</h2>
+          <small>2032-2035</small>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente non natus est iure voluptates assumenda rem modi laborum quibusdam, autem.</p>
+          <span class="right-container-arrow"></span>
+        </div>
+      
+      </div>
+      
+       <div class="container left-container">
+         <div class="timeline-dot"></div>
+        <div class="text-box">
+          <h2 class="experience-text2">Astrea inc</h2>
+          <small>2035-2040</small>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente non natus est iure voluptates assumenda rem modi laborum quibusdam, autem.</p>
+       <span class="left-container-arrow"></span>
+        </div>
+      </div>
+      
+    </div>  
+  </section>
+  
+  
+  <section class="Contact">
+    <h1 class="contact-text">Contact Us</h1>
+    <form>      
+  <input name="name" type="text"
+  class="feedback-input" placeholder="Name" />   
+  <input name="email" type="text" class="feedback-input" placeholder="Email" />
+  <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+  <input type="submit" onclick="submitOrder()" value="SUBMIT"/>
+</form>
+  </section>
+  <footer>
+    <div class="content">
+      <div class="top">
+        <div class="logo-details">
+          <span class="logo_name">Ryzhen</span>
+        </div>
+        <div class="media-icons">
+          <a href="whatsapp://send?text=Websitemu bagus 👍:&phone=+6283146472899"><i class="fab fa-facebook-f"></i></a>
+          <a href="whatsapp://send?text=Websitemu bagus 👍:&phone=+6283146472899"><i class="fab fa-twitter"></i></a>
+          <a href="whatsapp://send?text=Websitemu bagus 👍:&phone=+6283146472899"><i class="fab fa-instagram"></i></a>
+          <a href="whatsapp://send?text=Websitemu bagus 👍:&phone=+6283146472899"><i class="fab fa-linkedin-in"></i></a>
+          <a href="whatsapp://send?text=Websitemu bagus 👍:&phone=+6283146472899"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="link-boxes">
+        <ul class="box">
+          <li class="link_name">Company</li>
+          <li><a href="whatsapp://send?text=Websitemu bagus 👍:&phone=+6283146472899">Home</a></li>
+          <li><a href="whatsapp://send?text=Websitemu bagus 👍:&phone=+6283146472899">Contact us</a></li>
+          <li><a href="whatsapp://send?text=Websitemu bagus 👍:&phone=+6283146472899">About us</a></li>
+          <li><a href="whatsapp://send?text=Websitemu bagus 👍:&phone=+6283146472899">Get started</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name">My Skils</li>
+          <li><a href="whatsapp://send?text=Websitemu bagus 👍:&phone=+6283146472899">Gamer</a></li>
+          <li><a href="whatsapp://send?text=Websitemu bagus 👍:&phone=+6283146472899">Videographic</a></li>
+          <li><a href="whatsapp://send?text=Websitemu bagus 👍:&phone=+6283146472899">Photography</a></li>
+          <li><a href="whatsapp://send?text=Websitemu bagus 👍:&phone=+6283146472899">Photoshop</a></li>
+        </ul>
+        <ul class="box input-box">
+          <li class="link_name">Subscribe</li>
+          <li><input type="text" placeholder="Enter your email"></li>
+          <li><input type="button" value="Subscribe"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-details">
+      <div class="bottom_text">
+        <span class="copyright_text">Copyright © 2023 <a href="whatsapp://send?text=Websitemu bagus 👍:&phone=+6289673287386">Ridzweb.</a>All rights reserved</span>
+        <span class="policy_terms">
+          <a href="whatsapp://send?text=Websitemu bagus 👍:&phone=+6289673287386">Privacy policy</a>
+          <a href="whatsapp://send?text=Websitemu bagus 👍:&phone=+6289673287386">Terms & condition</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
